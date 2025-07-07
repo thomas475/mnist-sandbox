@@ -1,0 +1,15 @@
+name: mnist-sandbox
+channels:
+  - defaults
+dependencies:
+  - python=3.11.13
+  - jupyter
+  - notebook
+  - numpy=2.3.1
+  - pip
+  - pip:
+    - matplotlib==3.10.3
+    - scikit-learn==1.7.0
+    - torch==2.7.1
+    - torchvision==0.22.1
+
